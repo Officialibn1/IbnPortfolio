@@ -21,6 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: transparent;
 }
 
 .logo {
@@ -28,4 +29,17 @@ body {
     font-weight: 600;
     text-decoration: none;
     color: #ededed;
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ededed;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: color 300ms ease;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #00abf0;
 }
