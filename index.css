@@ -11,6 +11,7 @@
 body {
     background: #081b29;
     color: #ededed;
+    scroll-behavior: smooth;
 }
 
 .header {
