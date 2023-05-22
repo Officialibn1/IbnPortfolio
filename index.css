@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: transparent;
+    background: #081b29;
 }
 
 .logo {
@@ -56,14 +56,15 @@ body {
 }
 
 .home {
-    height: 100vh;
+    height: 115vh;
     display: flex;
     align-items: center;
-    padding: 0 10%;
+    padding: 100px 10% 0;
 }
 
 .home-content {
     max-width: 600px;
+    height: 100%;
 }
 
 .home-content h1 {
@@ -145,10 +146,11 @@ body {
 
 .home-sci {
     position: absolute;
-    bottom: 40px;
-    width: 170px;
+    bottom: -20px;
+    min-width: 170px;
     display: flex;
     justify-content: space-between;
+    gap: 1em;
 }
 
 .home-sci a {
@@ -227,6 +229,7 @@ body {
 @media (max-width: 720px) {
     .header{
         padding: 10px 5%;
+        border-bottom: 2px solid #00abf0;
     }
 
 
@@ -299,8 +302,8 @@ body {
 
     .home {
         align-items: center;
-        max-height: 650px;
-        padding: 0 5%;
+        height: 1000px;
+        padding: 100px 5% 0;
         position: relative;
     }
 
