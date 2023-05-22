@@ -13,11 +13,13 @@
     <header class="header">
         <a href="#" class="logo">ibn</a>
 
-        <nav class="navbar">
+        <nav class="navbar" id="navbar">
             <div class="close">
-                <p>
-                    X
-                </p>
+                <button  id="close">
+                    <p>
+                        X
+                    </p>
+                </button>
             </div>
             <a href="#" class="active">Home</a>
             <a href="#">About</a>
@@ -27,7 +29,9 @@
         </nav>
 
         <div class="toggler">
-            <i class='bx bx-menu-alt-right' alt="toggle"></i>
+            <button  id="open" alt="open">
+                <i class='bx bx-menu-alt-right' alt="toggle"></i>
+            </button>
         </div>
     </header>
 
@@ -53,5 +57,7 @@
             <a href="#"><i class='bx bxl-linkedin' ></i></a>
         </div>
     </section>
+
+    <script src="index.js"></script>
 </body>
 </html>
