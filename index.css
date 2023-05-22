@@ -225,7 +225,7 @@ body {
 
 @media (max-width: 720px) {
     .header{
-
+        padding: 10px 5%;
     }
 
 
@@ -299,6 +299,7 @@ body {
     .home {
         align-items: center;
         max-height: 650px;
+        padding: 0 5%;
         position: relative;
     }
 
